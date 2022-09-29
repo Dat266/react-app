@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+	height: 150vh;
+	text-align: center;
+	width: 100%;
+}
+
+.form-login {
+	margin: 50px auto;
+	width: 50vw;
+}
+
+input {
+	height: 30px;
+	outline: none;
+}
+
+.nav-link,
+label {
+	font-size: 20px;
+}
+
+label {
+	width: 130px;
+	text-align: left;
+}
+
+.mb-3 {
+	display: flex;
+	margin-top: 20px;
+}
+
+.form-control {
+	flex: 1;
+}
+
+.btn {
+	margin: 40px;
+	cursor: pointer;
+}
+
+.form-register {
+	display: block;
+	width: 50vw;
+	margin: 50px auto;
+}
+
+.col-md-4 {
+	display: flex;
+	width: 100%;
+}
+
+.form-control {
+	flex: 1;
+}
+
+.form {
+	display: flex;
+	width: 30vw;
+	margin: 20px auto;
+}
+
+.form > div {
+	margin-left: 50px;
+	text-align: center;
+	background-color: aqua;
+	width: 150px;
+	border-radius: 20px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: aliceblue;
+}
